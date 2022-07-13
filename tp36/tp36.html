@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let a = parseInt(prompt('Año: '));
+
+        if(a % 100 == 0) {
+            if(a % 400 == 0) {
+                document.write('SI.');
+            } else {
+                document.write('NO');
+            }
+        } else {
+            if(a % 4 == 0) {
+                document.write('SI.');
+            } else {
+                document.write('NO');
+            }
+        }
+        
+    </script>
+</body>
+</html>

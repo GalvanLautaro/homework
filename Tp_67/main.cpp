@@ -51,6 +51,7 @@ int main (){
 	HigherOf18(personas); cout << "\n";
 	FinishWithA(personas); cout << "\n";
 	PeopleList(personas);
+	cout << "\n" << "Programa terminado...";
 	
 	delete []personas;
 	cout << "\n\n";
