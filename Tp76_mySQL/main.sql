@@ -31,6 +31,14 @@ insert into clientes (IdCliente, NombreCliente, ApellidoCliente, FechaNacCliente
 	values (35, 'Juan', 'Mercado', '1964/02/02', 89.60, 1.77, 'Av. Independencia', 720, 7600, '2236166744', '2236166745', 'mercado@gmail.com');
 
 select * from clientes where Pesocliente > 90 and AlturaCliente > 1.78;    
-select * from clientes where Domicilio <> 'Mar del Plata' and EmailCliente like '%gmail.com';
+select * from clientes where Domicilio <> 7600 and EmailCliente like '%@gmail.com';
+select avg(AlturaCliente) from clientes;
+select max(PesoCliente) from clientes;
+select max(FechaNacCliente) from clientes;
+
+update clientes set FechaNaccliente = '1972/04/04' where ApellidoCliente = 'Mercado';
+update clientes set MovilDos = '223445545' where ApellidoCliente = 'Forchino';
+update clienetes set AlturaCliente = 1.80 where ApellidoCliente = 'Fernandez';
+
  
     
