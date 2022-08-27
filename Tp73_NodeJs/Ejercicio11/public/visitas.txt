@@ -1,0 +1,3 @@
+nombre:Lautaro<br>
+               comentarios:Muy buena pagina!<hr>nombre:Maximo<br>
+               comentarios:Muy mala pagina!!<hr>
