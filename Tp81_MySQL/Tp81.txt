@@ -1,0 +1,23 @@
+A) Crea una tabla llamada "Marcas" que contenga los siguientes elementos: Idmarca, NombreMarca, NombreCiudad, hacer un llave primaria de IdMarca
+
+B) Crea una tabla llamada "Coches" que contenga los siguientes elementos: CodCoche, Nombre, Modelo, hacer un llave primaria de CodCoche
+
+C) Crea una tabla llamada "Marco" que contenga los siguientes elementos: IdMarca, CodCoche, hacer un llave primaria de cifm y CodCoche, con un foreign conectar cifm con la tabla Coches, con un foreign conectar CodCoche con la tabla Coches
+
+D) Insertar en la tabla Marcas lo siguiente: 
+1, 'vw', 'Mar del Plata'
+2, 'renault', 'Rosario'
+3, 'fiat', 'Cordoba'
+4, 'ford', 'Neuquen'
+
+E) Listar todos los elementos de la tabla Marcas
+
+F) Listar los elementos nombre y ciudad de la tabla Marcas
+
+G) Listar los elementos nombre y ciudad de la tabla Marcas mientras IdMarca sea igual a 2
+
+H) Listar los elementos NombreMarca y ciudad de la tabla Marcas mientras que ciudad sea igual a Neuquen
+
+I) Listar los elementos Nombre y ciudad de la tabla Marcas mientras que ciudad contenga una S al principio
+
+J) Modifica en la tabla Marcas el valor de ciudad a Neuquen mientras que ciudad sea igual a Jujuy
